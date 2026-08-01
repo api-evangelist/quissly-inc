@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://quissly.com/llms.txt
+notes: >-
+  Quissly's two products are delivered primarily as embeddable, client-side storefront surfaces that
+  merchants drop into their e-commerce site (native Shopify/WooCommerce plugins or a custom API
+  integration). Loader-library details are not public (developer portal is behind a bot wall); the
+  component families below are captured from the product descriptions.
+families:
+- name: QSearch
+  kind: embedded search surface
+  description: >-
+    AI-powered product search widget for the storefront — semantic/natural-language query box, visual
+    similarity search, voice search, typo/synonym handling, AI recommendations, and a merchandising
+    admin. 40+ languages.
+  url: https://quissly.com/solutions
+- name: QChat
+  kind: embedded conversational assistant
+  description: >-
+    Conversational AI shopping assistant widget — dialogue-based product discovery, product Q&A, guided
+    shopping, personalized recommendations, plus an admin panel and omnichannel/live-chat human handoff.
+  url: https://quissly.com/solutions

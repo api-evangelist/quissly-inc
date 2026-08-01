@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://quissly.com/legal/terms + https://quissly.com/llms.txt
+versioning:
+  legal_docs: versioned
+  legal_current: '2.0'
+  legal_effective: '2026-07-08'
+  notes: >-
+    Legal documents are versioned; archived versions are linked from the changelog. The public API is
+    described as a REST API; no public API-versioning scheme could be confirmed (developer portal is
+    behind a bot wall).
+sla:
+  url: https://quissly.com/legal/sla
+  notes: >-
+    Support & Service Levels Policy is published. No uptime level is guaranteed unless expressly stated
+    in an Order Form; Enterprise subscriptions carry availability service levels with credits per the SLA.
+changelog:
+  url: https://quissly.com/changelog
+  notes: Public changelog page exists; archived legal versions are linked from it.
+status_page: null
+deprecation:
+  policy_url: null
+  sunset_header: null
+deprecated_operations: []

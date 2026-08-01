@@ -1,7 +1,15 @@
 aid: quissly-inc
 name: Quissly Inc.
-description: Quissly Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Quissly, Inc. is a Delaware-based SaaS company building an AI-powered search and conversational
+  commerce platform for online stores. Its two products, QSearch and QChat, replace keyword search
+  with semantic AI that understands natural-language queries like "something to wear to a beach
+  wedding" and maps them to relevant products. QSearch offers semantic and visual similarity search,
+  synonym/typo handling, voice search, AI recommendations, custom merchandising rules and a real-time
+  analytics dashboard across 40+ languages; QChat is a conversational shopping assistant with product
+  Q&A, guided shopping, personalization, and omnichannel/live-chat human handoff. Quissly is a fully
+  managed SaaS with sub-100ms search, a REST API, and native Shopify, WooCommerce and CS-Cart plugins,
+  surfaced in the API Evangelist network as a 500 Global portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/quissly-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +17,47 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://quissly.com/images/og-default.png
 tags:
 - Company
-apis: []
+- E-commerce
+- Search
+- Artificial Intelligence
+- Conversational Commerce
+- Product Discovery
+- Semantic Search
+- Retail
+apis:
+- name: Quissly API
+  description: >-
+    Quissly's REST API powers AI product search (QSearch) and the conversational shopping assistant
+    (QChat) for any e-commerce platform, alongside native Shopify, WooCommerce and CS-Cart plugins.
+  humanURL: https://developers.quissly.com
+  baseURL: https://api.quissly.com
+  tags:
+  - Search
+  - E-commerce
+  - AI
+  properties:
+  - type: Documentation
+    url: https://developers.quissly.com
+  - type: APIReference
+    url: https://developers.quissly.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +66,46 @@ maintainers:
 common:
 - type: Website
   url: https://quissly.com
+- type: DeveloperPortal
+  url: https://developers.quissly.com
+- type: Documentation
+  url: https://developers.quissly.com
+- type: Pricing
+  url: https://quissly.com/pricing
+- type: SignUp
+  url: https://quissly.com/signup
+- type: Login
+  url: https://quissly.com/login
+- type: Blog
+  url: https://quissly.com/blog
+- type: ChangeLog
+  url: https://quissly.com/changelog
+- type: GitHubOrganization
+  url: https://github.com/quissly
+- type: TermsOfService
+  url: https://quissly.com/legal/terms
+- type: PrivacyPolicy
+  url: https://quissly.com/legal/privacy-policy
+- type: DemoRequest
+  url: https://quissly.com/book-demo
+- type: LLMsTxt
+  url: llms/quissly-inc-llms.txt
+- type: Plans
+  url: plans/quissly-inc-plans.yml
+- type: Packages
+  url: packages/quissly-inc-packages.yml
+- type: Components
+  url: components/quissly-inc-components.yml
+- type: Lifecycle
+  url: lifecycle/quissly-inc-lifecycle.yml
+- type: DomainSecurity
+  url: security/quissly-inc-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/quissly-inc-vulnerability-disclosure.yml
+- type: Security
+  url: security/quissly-inc-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

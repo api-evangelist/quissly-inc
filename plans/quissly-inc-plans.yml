@@ -1,0 +1,147 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+provider: Quissly Inc.
+providerId: quissly-inc
+generated: '2026-07-20'
+method: searched
+created: '2026-07-20'
+modified: '2026-07-20'
+tags:
+- E-commerce
+- Search
+- Pricing
+- Plans
+description: >-
+  Quissly prices its two products separately (no combo/bundle). QSearch is metered by search
+  requests and QChat by AI interactions (chat messages); the monthly-session figures are only a
+  self-identification guide. Overage is progressive (cheaper per unit at higher tiers) and billed
+  as-you-go with no forced tier jump. Prices below are monthly; annual billing is cheaper.
+sources:
+- https://quissly.com/llms.txt
+- https://quissly.com/pricing
+plans:
+- id: qsearch-free
+  name: QSearch Free
+  product: QSearch
+  type: freemium
+  price: '0.00'
+  description: 1,000 AI searches per month, hard cap.
+  entries:
+  - label: AI Searches
+    name: ai_searches
+    type: quota
+    metric: search_requests
+    limit: 1000
+    timeFrame: month
+    price: '0.00'
+- id: qsearch-starter
+  name: QSearch Starter
+  product: QSearch
+  type: subscription
+  price: '39.00'
+  description: 10,000 search requests/mo (best for ~5,000 monthly sessions). Overage $3 per 1,000.
+  entries:
+  - label: Search Requests
+    name: search_requests
+    type: quota
+    metric: search_requests
+    limit: 10000
+    timeFrame: month
+    price: '39.00'
+    overage: '3.00 per 1000'
+- id: qsearch-growth
+  name: QSearch Growth
+  product: QSearch
+  type: subscription
+  price: '89.00'
+  description: 50,000 search requests/mo (best for ~25,000 monthly sessions, most popular). Overage $2 per 1,000.
+  entries:
+  - label: Search Requests
+    name: search_requests
+    type: quota
+    metric: search_requests
+    limit: 50000
+    timeFrame: month
+    price: '89.00'
+    overage: '2.00 per 1000'
+- id: qsearch-scale
+  name: QSearch Scale
+  product: QSearch
+  type: subscription
+  price: '229.00'
+  description: 200,000 search requests/mo (best for ~100,000 monthly sessions). Overage $1 per 1,000.
+  entries:
+  - label: Search Requests
+    name: search_requests
+    type: quota
+    metric: search_requests
+    limit: 200000
+    timeFrame: month
+    price: '229.00'
+    overage: '1.00 per 1000'
+- id: qsearch-enterprise
+  name: QSearch Enterprise
+  product: QSearch
+  type: enterprise
+  price: custom
+  description: Custom pricing for 100K+ search requests / multi-store.
+  entries: []
+- id: qchat-basic
+  name: QChat Basic
+  product: QChat
+  type: subscription
+  price: '50.00'
+  description: No AI; omnichannel + live chat human support (no interaction meter, no overage).
+  entries: []
+- id: qchat-starter
+  name: QChat Starter
+  product: QChat
+  type: subscription
+  price: '119.00'
+  description: 5,000 AI interactions/mo (best for ~5,000 monthly sessions). Overage $12 per 1,000.
+  entries:
+  - label: AI Interactions
+    name: ai_interactions
+    type: quota
+    metric: chat_messages
+    limit: 5000
+    timeFrame: month
+    price: '119.00'
+    overage: '12.00 per 1000'
+- id: qchat-growth
+  name: QChat Growth
+  product: QChat
+  type: subscription
+  price: '279.00'
+  description: 20,000 AI interactions/mo (best for ~25,000 monthly sessions, most popular). Overage $8 per 1,000.
+  entries:
+  - label: AI Interactions
+    name: ai_interactions
+    type: quota
+    metric: chat_messages
+    limit: 20000
+    timeFrame: month
+    price: '279.00'
+    overage: '8.00 per 1000'
+- id: qchat-scale
+  name: QChat Scale
+  product: QChat
+  type: subscription
+  price: '799.00'
+  description: 100,000 AI interactions/mo (best for ~100,000 monthly sessions). Overage $5 per 1,000.
+  entries:
+  - label: AI Interactions
+    name: ai_interactions
+    type: quota
+    metric: chat_messages
+    limit: 100000
+    timeFrame: month
+    price: '799.00'
+    overage: '5.00 per 1000'
+- id: qchat-enterprise
+  name: QChat Enterprise
+  product: QChat
+  type: enterprise
+  price: custom
+  description: Custom pricing for 100K+ AI interactions / multi-store.
+  entries: []

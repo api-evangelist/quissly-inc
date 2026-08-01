@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+source: https://quissly.com/llms.txt + https://github.com/quissly
+notes: >-
+  No first-party client SDK was found on npm, PyPI, RubyGems, Packagist, Maven, NuGet, or crates.io.
+  Quissly ships e-commerce PLATFORM PLUGINS (not language SDKs): native Shopify and WooCommerce
+  plugins documented on the site, and an open CS-Cart plugin published in the quissly GitHub org.
+  Custom integration is via the REST API. These are integration plugins, so no SDKs pointer is emitted.
+packages:
+- language: php
+  registry: github
+  name: quissly/for-cscart
+  url: https://github.com/quissly/for-cscart
+  install: install via CS-Cart add-on
+  platform: CS-Cart
+  kind: plugin
+  official: true
+- language: liquid
+  registry: shopify
+  name: Quissly for Shopify
+  url: https://quissly.com/use-case/shopify
+  platform: Shopify
+  kind: plugin
+  official: true
+- language: php
+  registry: wordpress
+  name: Quissly for WooCommerce
+  url: https://quissly.com/use-case/woocommerce
+  platform: WooCommerce
+  kind: plugin
+  official: true

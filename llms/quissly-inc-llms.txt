@@ -1,0 +1,97 @@
+# Quissly
+
+> AI-powered search and chat platform for e-commerce websites.
+
+Quissly helps online stores deliver intelligent product discovery through semantic AI search and a conversational shopping assistant called QChat. It replaces traditional keyword-based search with AI that understands natural language queries like "something to wear to a beach wedding" and maps them to relevant products.
+
+## Products
+
+### QSearch
+AI-powered product search engine for e-commerce. Features include:
+- Semantic search that understands shopper intent
+- Natural language query understanding
+- Visual similarity search
+- Automatic synonym and typo handling
+- Multi-language support (40+ languages)
+- AI product recommendations
+- Custom merchandising rules
+- Voice search
+- Real-time analytics dashboard
+
+### QChat
+Conversational AI shopping assistant. Features include:
+- Natural language product discovery through dialogue
+- Personalized product recommendations
+- Product question answering
+- Guided shopping experiences
+- CRM and messaging integrations
+- Admin panel for management
+
+## Pricing
+
+QSearch and QChat are priced separately (no combo/bundle). QSearch is metered by
+search requests and QChat by AI interactions (chat messages); monthly sessions are
+only a guide to help merchants self-identify. Overage is progressive (cheaper per
+unit at higher tiers) and billed as you go — there is no forced tier jump. Monthly
+prices shown below; annual billing is cheaper.
+
+### QSearch Plans
+- Free: $0 — 1,000 AI searches/mo (hard cap)
+- Starter: $39/mo — 10,000 search requests/mo (best for ~5,000 monthly sessions); overage $3 / 1,000
+- Growth: $89/mo — 50,000 search requests/mo (best for ~25,000 monthly sessions, most popular); overage $2 / 1,000
+- Scale: $229/mo — 200,000 search requests/mo (best for ~100,000 monthly sessions); overage $1 / 1,000
+- Enterprise: Custom — 100K+ / multi-store
+
+### QChat Plans
+QChat includes human-in-the-loop, omnichannel & live chat support across all tiers.
+- Basic: $50/mo — no AI; omnichannel + live chat human support (no interaction meter, no overage)
+- Starter: $119/mo — 5,000 AI interactions/mo (best for ~5,000 monthly sessions); overage $12 / 1,000
+- Growth: $279/mo — 20,000 AI interactions/mo (best for ~25,000 monthly sessions, most popular); overage $8 / 1,000
+- Scale: $799/mo — 100,000 AI interactions/mo (best for ~100,000 monthly sessions); overage $5 / 1,000
+- Enterprise: Custom — 100K+ / multi-store
+
+## Integrations
+- Shopify (native plugin)
+- WooCommerce (native plugin)
+- Custom API for any e-commerce platform
+- Typical integration time: days, not weeks
+
+## Technical Details
+- Fully managed SaaS — no infrastructure to operate
+- Sub-100ms search response times
+- AI-native architecture (not keyword search with AI bolted on)
+- REST API available
+
+## Links
+- Website: https://quissly.com
+- API Documentation: https://developers.quissly.com
+- Book a Demo: https://quissly.com/book-demo
+- Pricing: https://quissly.com/pricing
+- Solutions: https://quissly.com/solutions
+
+## Comparisons
+- Quissly vs Algolia: https://quissly.com/compare/algolia
+- Quissly vs Typesense: https://quissly.com/compare/typesense
+- Quissly vs Meilisearch: https://quissly.com/compare/meilisearch
+
+## Platform Use Cases
+- Shopify: https://quissly.com/use-case/shopify
+- WooCommerce: https://quissly.com/use-case/woocommerce
+
+## UCP Resource Hub
+A neutral, continuously maintained reference on the Universal Commerce Protocol (UCP) and agentic commerce for merchants.
+- Hub home (overview + navigation): https://quissly.com/ucp
+- What is UCP? (plain-English explainer): https://quissly.com/ucp/what-is-ucp
+- Protocol landscape — UCP vs ACP vs MCP vs A2A vs AP2: https://quissly.com/ucp/protocols
+- What UCP means for your store (urgent vs. can-wait, data checklist): https://quissly.com/ucp/for-merchants
+- UCP is a discovery protocol (search & product-data implications): https://quissly.com/ucp/discovery
+- UCP updates (living record of changes, primary-source linked): https://quissly.com/ucp/updates
+- UCP FAQ & glossary: https://quissly.com/ucp/faq
+
+## Legal
+Versioned legal documents; archived versions are linked from the changelog.
+- Terms of Service: https://quissly.com/legal/terms
+- Privacy Policy: https://quissly.com/legal/privacy-policy
+- Data Processing Agreement: https://quissly.com/legal/dpa
+- Acceptable Use Policy: https://quissly.com/legal/acceptable-use
+- Support & Service Levels Policy: https://quissly.com/legal/sla
