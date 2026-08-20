@@ -35,6 +35,15 @@ modified: '2026-07-20'
 image: https://quissly.com/images/og-default.png
 tags:
 - Company
+- E-Commerce
+- Search
+- Artificial Intelligence
+- Conversational Commerce
+- Product Discovery
+- Semantic Search
+- Retail
+tags_raw:
+- Company
 - E-commerce
 - Search
 - Artificial Intelligence
@@ -50,6 +59,10 @@ apis:
   humanURL: https://developers.quissly.com
   baseURL: https://api.quissly.com
   tags:
+  - Search
+  - E-Commerce
+  - Artificial Intelligence
+  tags_raw:
   - Search
   - E-commerce
   - AI
