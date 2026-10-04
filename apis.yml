@@ -1,5 +1,5 @@
 aid: quissly-inc
-name: Quissly Inc.
+name: Quissly
 description: >-
   Quissly, Inc. is a Delaware-based SaaS company building an AI-powered search and conversational
   commerce platform for online stores. Its two products, QSearch and QChat, replace keyword search
@@ -133,3 +133,4 @@ x-enrichment:
   status: enriched
   artifacts_added: 7
   pass: local-v1
+x-legal-name: Quissly Inc.
