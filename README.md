@@ -1,4 +1,4 @@
-# Quissly Inc.
+# Quissly
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Quissly Inc. is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Quissly, Inc. is a Delaware-based SaaS company building an AI-powered search and conversational commerce platform for online stores. Its two products, QSearch and QChat, replace keyword search with semantic AI that understands natural-language queries like "something to wear to a beach wedding" and maps them to relevant products. QSearch offers semantic and visual similarity search, synonym/typo handling, voice search, AI recommendations, custom merchandising rules and a real-time analytics dashboard across 40+ languages; QChat is a conversational shopping assistant with product Q&A, guided shopping, personalization, and omnichannel/live-chat human handoff. Quissly is a fully managed SaaS with sub-100ms search, a REST API, and native Shopify, WooCommerce and CS-Cart plugins, surfaced in the API Evangelist network as a 500 Global portfolio company.
 
-Backed by: 500-global — https://quissly.com
+**Areas:** Company · E-Commerce · Search · Artificial Intelligence · Conversational Commerce · Product Discovery · Semantic Search · Retail
+
+## Quissly on APIs.io
+
+Everything profiled for Quissly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/quissly-inc/](https://apis.io/providers/quissly-inc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Quissly API](https://apis.io/apis/quissly-inc/quissly-api/) — Quissly's REST API powers AI product search (QSearch) and the conversational shopping assistant (QChat) for any e-commerce platform, alongside native…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Quissly Inc Domain Security](https://apis.io/security/quissly-inc/quissly-inc-domain-security/)
+- [Quissly Inc Vulnerability Disclosure](https://apis.io/security/quissly-inc/quissly-inc-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Quissly Inc Plans](https://apis.io/plans/quissly-inc/quissly-inc-plans/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://quissly.com)
+- [Documentation](https://developers.quissly.com)
+- [Pricing](https://quissly.com/pricing)
+- [Sign up](https://quissly.com/signup)
+- [Changelog](https://quissly.com/changelog)
+- [Blog](https://quissly.com/blog)
+- [Terms of service](https://quissly.com/legal/terms)
+- [Privacy policy](https://quissly.com/legal/privacy-policy)
+- [GitHub](https://github.com/quissly)
+
+## API Evangelist rating
+
+**Kin Score 29.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 69.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/quissly-inc/](https://apis.io/providers/quissly-inc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Quissly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/quissly-inc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
